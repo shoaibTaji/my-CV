@@ -1,0 +1,119 @@
+body{
+    overflow: hidden;
+}
+.cont{
+    position: relative;
+    top: -46em;
+    /* display: none; */
+}
+#back-img{
+    width: 100%;
+    height: 44em;
+}
+/* style hr */
+hr{
+    width: 300px;
+    border: dotted;
+    border-bottom: none;
+    color: lightblue;
+}
+/* style My Contact Destails(mcd) */
+div.mcd{
+    margin: 1em;
+    margin-top: 2em;
+    margin-left: 3em;
+}
+div.mcd h1{
+    text-align: center;
+}
+.myImg{
+    position: absolute;
+    margin-left: 34.5em;
+    margin-top: -5em;
+    border: 4px dotted lightblue;
+    border-radius: 100%;
+}
+/* style form */
+form{
+    border-left: 4px dotted lightblue;
+    border-radius: 0px 10px 10px 0px;
+    margin: 1em;
+    width: 20em;
+    height: 29em;
+    padding-left: 1em;
+}
+/* style inputs */
+input ,textarea{
+    width: 20em;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f194;
+}
+input:focus ,textarea:focus{
+    background-color: #ddd;
+    outline: none;
+}
+textarea{
+    resize: vertical;
+}
+input.submit{
+    background: linear-gradient(356deg, #259fa5, #2bd1d7);
+    color: white;
+    font-weight: 800;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 12em;
+    margin-bottom: 10em;
+}
+input.submit:hover{
+
+    background: linear-gradient(356deg, #3cd4bf, #3feed6);
+    cursor: pointer;
+}
+/* style cloud img */
+.cloud{
+    position: absolute;
+    margin-top: -35em;
+    margin-left: 46em;
+}
+/* div.about me */
+.aboutMe{
+    width: 32em;
+    position: absolute;
+    top: 13em;
+    right: 3em;
+}
+.aboutMe h1{
+    text-align: center;
+}
+.aboutMe img{
+    transition: 1s;
+    margin-left: 10em;
+    transform: rotate(90deg);
+}
+.aboutMe img:hover{
+    transform: rotate(0deg);
+    transition: 1s;
+}
+/* aboutMe img */
+.aboutMe .hide{
+    position: absolute;
+    transition: 1s;
+    top: 17.1em;
+    right: 1em;
+    padding: 10px;
+    opacity: 0;
+}
+.aboutMe .hide a{
+    text-decoration: none;
+    color: #26a7ad;
+}
+.showAndHide:hover .hide{
+    transition: 3s;
+    opacity: 1;
+    border: 3px dotted #29c7cd;
+    border-radius: 100px;
+}
